@@ -12,10 +12,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - name: "Install dependencies"
+      run: |
+        sudo apt-get install python3 python3-sphinx
     - uses: ammaraskar/sphinx-problem-matcher@master
     - name: "Build docs"
       run: |
-        sudo apt-get install python
-        sudo apt-get install python3-sphinx
         cd docs
         make html
