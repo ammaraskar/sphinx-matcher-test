@@ -16,6 +16,6 @@ jobs:
     - name: "Build docs"
       run: |
         sudo apt-get install python
-        pip install sphinx
+        python -m pip install sphinx
         cd docs
         make html
