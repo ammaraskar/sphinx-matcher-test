@@ -10,6 +10,8 @@ Welcome to No Errors Test Project's documentation!
    :maxdepth: 2
    :caption: Hello World!
 
+   not_here
+
 The title is a lie, this page does have warnings.
 
 Like this one:
@@ -21,6 +23,10 @@ And the classic
 ====
 Title too short
 =======
+
+who can forget?
+
+.. image:: what_image.png
 
 
 Indices and tables
