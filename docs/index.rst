@@ -18,7 +18,8 @@ Like this one:
 
 And the classic
 
-Title
+====
+Title too short
 =======
 
 
