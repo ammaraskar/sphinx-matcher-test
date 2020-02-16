@@ -10,6 +10,16 @@ Welcome to No Errors Test Project's documentation!
    :maxdepth: 2
    :caption: Hello World!
 
+The title is a lie, this page does have warnings.
+
+Like this one:
+
+.. bad_directive::
+
+And the classic
+
+Title
+=======
 
 
 Indices and tables
